@@ -11,6 +11,7 @@ mongoose.connect('mongodb://localhost:27017/JSHunt', {
 
 requireDir('./src/models');
 
+app.use(express.json());
 app.use('/api', require('./src/routes'));
 
 app.listen(3001);
