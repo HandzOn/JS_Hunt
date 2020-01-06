@@ -4,6 +4,6 @@ Projeto Starter da Rocketseat
 
 ## RoadMap
 
-- [ ] Node.js
+- [x] Node.js
 - [ ] ReactJS
 - [ ] React Native
