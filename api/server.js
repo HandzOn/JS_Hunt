@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const requireDir = require('require-dir');
 const mongoose = require('mongoose');
 
@@ -10,7 +11,7 @@ mongoose.connect('mongodb://localhost:27017/JSHunt', {
 });
 
 requireDir('./src/models');
-
+app.use(cors());
 app.use(express.json());
 app.use('/api', require('./src/routes'));
 
