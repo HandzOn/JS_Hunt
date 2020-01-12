@@ -6,4 +6,4 @@ Projeto Starter da Rocketseat
 
 - [x] Node.js
 - [x] ReactJS
-- [ ] React Native
+- [x] React Native
