@@ -1,6 +1,6 @@
 # JS Hunt
 
-Projeto Starter da Rocketseat
+Rocketseat Starter Project
 
 ## RoadMap
 
